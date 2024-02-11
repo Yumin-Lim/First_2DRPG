@@ -3,7 +3,7 @@ guid: 494c81e87368b1a428001c754d973e49
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,12 +20,11 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMipmapLimit: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -64,8 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
-  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -77,7 +74,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -90,7 +86,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -103,7 +98,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -456,24 +450,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Walk_0: -1546907172
-      Walk_1: -1821337937
-      Walk_10: 1129165392
-      Walk_11: -575164822
-      Walk_12: 839853426
-      Walk_13: -2051629573
-      Walk_14: -465134492
-      Walk_15: 1862270825
-      Walk_2: -1011330234
-      Walk_3: -743769828
-      Walk_4: -1254146456
       Walk_5: -528547315
-      Walk_6: -1956059489
-      Walk_7: 736607232
-      Walk_8: -670285977
+      Walk_12: 839853426
+      Walk_10: 1129165392
+      Walk_0: -1546907172
       Walk_9: 767386023
-  mipmapLimitGroupName: 
+      Walk_4: -1254146456
+      Walk_11: -575164822
+      Walk_8: -670285977
+      Walk_6: -1956059489
+      Walk_2: -1011330234
+      Walk_15: 1862270825
+      Walk_7: 736607232
+      Walk_3: -743769828
+      Walk_13: -2051629573
+      Walk_1: -1821337937
+      Walk_14: -465134492
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
