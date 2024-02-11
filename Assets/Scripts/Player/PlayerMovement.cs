@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [Header("Config")]
+    [SerializeField] private float speed;
+    private PlayerActions actions;
+    private void Awake()
+    {
+        actions = new PlayerActions();
+    }
+
     void Start()
     {
         
@@ -12,6 +19,16 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    {
+        
+    }
+
+    private void OnEnable() 
+    {
+        
+    }
+
+    private void OnDisable() 
     {
         
     }
